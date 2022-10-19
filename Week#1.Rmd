@@ -4,60 +4,60 @@ author: "Amanda Mae Woodward"
 date: "2022-09-28"
 output: html_document
 ---
-
+#Hi John, you'll just want to make sure you add .rmd to the end of your assignment file so that it registers the code chunks. Nice job! 
 1. Name the four panels in R Studio and offer a brief description of each.
 Upper-left panel is the R Markdown file, where we want to save our code.
 The upper-right panel is the global environment, which contains variables, datasets, vectors, and functions.
 The lower-left panel is the console, where R runs the code, shows errors, and holds code that you want to test but are not ready to input to the markdown file.
 The lower-right panel is kind of a catch-all for plots, packages, and files to install and update.
-
+#√
 2. Create a code chunk. Write your favorite number in it. 
 ```{r}
 37
 ```
-
+#√
 
 3. Add thirty-seven to six
 ```{r}
 6+37
 ```
-
+#√
 
 4. evaluate the following: six times four is equal to twenty-four
 ```{r}
 6*4==24
 ```
-
+#√
 5. What's the difference between an "and" and an "or" statement? 
 In an AND statement, both sides of the equation need to be equal in order for R to recognize it as TRUE.
 In an OR statement, only one side of the equation needs to be equal for it to be TRUE.
-
+#√
 6. Create an "and" statement for the following sentence: three is less than five and tree is the same as oak. 
 ```{r}
 3>5 & "tree"=="oak"
 ```
-
+#√
 
 7. Create a variable called "dinner" that contains your favorite thing to eat for dinner. 
 ```{r}
 dinner<- "salmon"
 ```
-
+#√
 
 8. write out all numbers between 50 and 200
 ```{r}
 seq(50,200)
 ```
-
+#√
 
 9. print every odd number between 1 and 300. 
 ```{r}
 seq(1, 300, 2)
 ```
-
+#√
 
 10. repeat the phrase "i'm excited for fall" five times
 ```{r}
 rep("i'm excited for fall", 5)
 ```
-
+#√
